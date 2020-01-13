@@ -11,11 +11,17 @@ Add these in your `init.el`
 (require 'markdown-preview-by-hxp')
 ```
 ---
+### Chrome is required to preview###
+
+#### Linux ####
+* Make sure your command for chrome is `google-chrome-stable`
+
+#### Windows 10 ####
+* Make sure your chrome is installed in the default directory `C:/Program Files(x86)`
+
 
 ## Features ##
-  * `C-c p` to preview markdown live in your web browser (Automatically selected by your OS)
-    * Linux: Firefox
-    * Windows: Microsoft Edge
+  * `C-c p` to preview markdown live in your web browser
   * The Emacs httpd server will be running automatically
   * Javascript and CSS are stored locally, no internet connection is required
   

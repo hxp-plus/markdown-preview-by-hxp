@@ -3,7 +3,9 @@
 
 ---
 ## Installation ##
-Put `markdown-preview-by-hxp.el` to your load path (i.e. `~/.emacs.d/lisp/`)
+Put `markdown-preview-by-hxp.el` in your load path (i.e. `~/.emacs.d/lisp/`)
+
+Put `httpd` under `~/.emacs.d/`
 
 Add these in your `init.el`
 ```

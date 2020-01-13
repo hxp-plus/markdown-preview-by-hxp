@@ -3,7 +3,7 @@
 
 ---
 ## Installation ##
-Put `markdown-preview.el` to your load path (i.e. `~/.emacs.d/lisp/`)
+Put `markdown-preview-by-hxp.el` to your load path (i.e. `~/.emacs.d/lisp/`)
 
 Add these in your `init.el`
 ```
@@ -13,7 +13,9 @@ Add these in your `init.el`
 ---
 
 ## Features ##
-  * `C-c p` to preview markdown live in your web browser
+  * `C-c p` to preview markdown live in your web browser (Automatically selected by your OS)
+    * Linux: Firefox
+    * Windows: Microsoft Edge
   * The Emacs httpd server will be running automatically
   * Javascript and CSS are stored locally, no internet connection is required
   
